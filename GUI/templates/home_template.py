@@ -5,7 +5,7 @@ class HomeWidget(QWidget):
     def __init__(self):
         super().__init__()
         self.setGeometry(10, 10, 1200, 800)
-        self.butti = QPushButton(self)
+        #self.butti = QPushButton(self)
         self.setStyleSheet("background-color: green;")
 
 

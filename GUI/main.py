@@ -11,7 +11,7 @@ def start():
     window = QMainWindow()
     widget_manager = WidgetManager.WidgetManager(window)
 
-    home_widget = Home.HomeWidget()
+    home_widget = home_template.HomeWidget()
     widget_manager.addWidget(home_widget)
 
     w = QWidget()
