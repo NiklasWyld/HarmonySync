@@ -1,4 +1,4 @@
-import Backend, Assets, GUI, savedata
+import Backend, Assets, GUI
 from GUI import main
 from infi.systray import SysTrayIcon
 
