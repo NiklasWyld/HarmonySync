@@ -9,18 +9,11 @@ app = QApplication(sys.argv)
 
 def start():
     window = QMainWindow()
-    widget_manager = WidgetManager.WidgetManager(window)
+    widget_manager = WidgetManager.WidgetManager()
 
     home_widget = home_template.HomeWidget()
     widget_manager.addWidget(home_widget)
-
-    w = QWidget()
-    widget_manager.addWidget(w)
-    widget_manager.showWidget(home_widget)
-
-
-
-
+    widget_manager.setParent(home_widget)
 
     sys.exit(app.exec_())
 
