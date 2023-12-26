@@ -25,9 +25,7 @@ settings_widget = settings_template.SettingsWidget(window)
 
 def startGUI():
     home_widget.show()
-    #QtTest.QTest.qWait(600)
-    #home_widget.hide()
-    #settings_widget.show()
+
 
 
 
